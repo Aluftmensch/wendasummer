@@ -1,0 +1,43 @@
+[ 2017-04-06T08:11:03+08:00 ] ::1 /wenda/admin.php/Type/getdata
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_type` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_type` WHERE ( tid = 12 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-04-06T08:11:13+08:00 ] ::1 /wenda/admin.php/Type/doingedit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_type` [ RunTime:0.0020s ]
+SQL: UPDATE `wenda_type` SET `typename`='一元微积分2' WHERE ( tid = 12 ) [ RunTime:0.1740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-04-06T08:23:24+08:00 ] ::1 /wenda/admin.php/Type/getdata
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_type` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wenda_type` WHERE ( tid = 12 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-06T08:23:27+08:00 ] ::1 /wenda/admin.php/Type/doingedit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_type` [ RunTime:0.0030s ]
+SQL: UPDATE `wenda_type` SET `typename`='一元微积分' WHERE ( tid = 12 ) [ RunTime:0.0900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-04-06T21:20:17+08:00 ] ::1 /wenda/admin.php/Users/index?tname=
+ERR: 非法操作:index
+

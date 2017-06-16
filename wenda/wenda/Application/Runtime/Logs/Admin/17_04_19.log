@@ -1,0 +1,150 @@
+[ 2017-04-19T15:21:17+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0630s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'state' D:\wamp64\www\wenda\Application\Admin\Controller\AnnounceController.class.php 第 58 行.
+
+[ 2017-04-19T15:21:21+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0020s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0320s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'state' D:\wamp64\www\wenda\Application\Admin\Controller\AnnounceController.class.php 第 45 行.
+
+[ 2017-04-19T15:21:24+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0020s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=13 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=13 ) [ RunTime:0.0290s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=13 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'state' D:\wamp64\www\wenda\Application\Admin\Controller\AnnounceController.class.php 第 45 行.
+
+[ 2017-04-19T15:21:27+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=13 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=13 ) [ RunTime:0.0690s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=13 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'state' D:\wamp64\www\wenda\Application\Admin\Controller\AnnounceController.class.php 第 58 行.
+
+[ 2017-04-19T15:21:29+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0310s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'state' D:\wamp64\www\wenda\Application\Admin\Controller\AnnounceController.class.php 第 58 行.
+
+[ 2017-04-19T15:21:35+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0020s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0240s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'state' D:\wamp64\www\wenda\Application\Admin\Controller\AnnounceController.class.php 第 45 行.
+
+[ 2017-04-19T15:21:43+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0020s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=15 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=15 ) [ RunTime:0.0730s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=15 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'state' D:\wamp64\www\wenda\Application\Admin\Controller\AnnounceController.class.php 第 45 行.
+
+[ 2017-04-19T15:21:53+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0020s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0720s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'state' D:\wamp64\www\wenda\Application\Admin\Controller\AnnounceController.class.php 第 58 行.
+
+[ 2017-04-19T15:25:39+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0020s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0460s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'state' D:\wamp64\www\wenda\Application\Admin\Controller\AnnounceController.class.php 第 45 行.
+
+[ 2017-04-19T15:25:42+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0580s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'state' D:\wamp64\www\wenda\Application\Admin\Controller\AnnounceController.class.php 第 58 行.
+
+[ 2017-04-19T15:26:01+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0590s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'state' D:\wamp64\www\wenda\Application\Admin\Controller\AnnounceController.class.php 第 45 行.
+
+[ 2017-04-19T15:26:24+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0730s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] Illegal string offset 'state' D:\wamp64\www\wenda\Application\Admin\Controller\AnnounceController.class.php 第 58 行.
+
+[ 2017-04-19T15:26:44+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0790s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'state' D:\wamp64\www\wenda\Application\Admin\Controller\AnnounceController.class.php 第 45 行.
+
+[ 2017-04-19T16:47:03+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0350s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] Illegal string offset 'state' D:\wamp64\www\wenda\Application\Admin\Controller\AnnounceController.class.php 第 58 行.
+
+[ 2017-04-19T16:47:09+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0020s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=13 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=13 ) [ RunTime:0.0700s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=13 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'state' D:\wamp64\www\wenda\Application\Admin\Controller\AnnounceController.class.php 第 45 行.
+

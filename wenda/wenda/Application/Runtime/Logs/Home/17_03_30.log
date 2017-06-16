@@ -1,0 +1,10 @@
+[ 2017-03-30T07:37:50+08:00 ] ::1 /wenda/index.php/Home/Index/getfriendlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wenda_friendlist` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `wenda_friendlist` INNER JOIN wenda.wenda_Users ON wenda_friendlist.fuid = wenda.wenda_Users.uid  WHERE ( wenda_friendlist.uid=9 )  [ RunTime:0.0312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

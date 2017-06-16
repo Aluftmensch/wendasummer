@@ -1,0 +1,16 @@
+[ 2017-05-22T10:37:50+08:00 ] ::1 /wenda/API/Follow/delfollow/uid/2/fuid/3
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `wenda_friendlist` WHERE ( frid =Array )
+
+[ 2017-05-22T10:39:52+08:00 ] ::1 /wenda/API/Follow/delfollow/uid/2/fuid/3
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `wenda_friendlist` WHERE ( frid = Array )
+
+[ 2017-05-22T10:40:59+08:00 ] ::1 /wenda/API/Follow/delfollow/uid/2/fuid/3
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `wenda_friendlist` WHERE ( frid = Array )
+
+[ 2017-05-22T10:41:35+08:00 ] ::1 /wenda/API/Follow/delfollow/uid/2/fuid/3
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `wenda_friendlist` WHERE ( frid = Array )
+

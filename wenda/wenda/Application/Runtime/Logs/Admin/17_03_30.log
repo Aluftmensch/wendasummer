@@ -1,0 +1,9 @@
+[ 2017-03-30T19:46:20+08:00 ] ::1 /wenda/admin.php/Welcome/index
+ERR: 模板不存在:./Application/Admin/View/Welcome/index.html
+
+[ 2017-03-30T20:50:14+08:00 ] ::1 /wenda/admin.php/Users/list.html
+ERR: 非法操作:list
+
+[ 2017-03-30T20:52:13+08:00 ] ::1 /wenda/admin.php/Users/list.html
+ERR: 非法操作:list
+

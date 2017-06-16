@@ -1,0 +1,107 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<title>校内问答后台管理</title>
+<link href="/wenda/Public/wenda/style_log.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="/wenda/Public/wenda/google_jquery-ui.min.js">
+<script type="text/javascript" src="/wenda/Public/jquery.min.js"></script>
+</head>
+<body class="login" mycollectionplug="bind">
+<div class="login_m">
+<div class="login_logo"><span style="font-size: 2.8em;font-family: Arial,Helvetica, sans-serif;color: #666666;font-weight: bold;">校 内 问 答</span></div>
+<div class="login_boder">
+<form action="<?php echo U('Login/check');?>" method="POST">
+<div class="login_padding" id="login_model">
+  <h2>账号</h2>
+  <label>
+  <i class="users"></i><input type="text" id="username" name="name" class="txt_input txt_input2" placeholder="请输入账号" required="" >
+  </label>
+  <h2>密码</h2>
+  <label>
+    <input type="password" name="password" id="userpwd" class="txt_input" style="margin-bottom: 46px" placeholder="请输入密码" required="">
+  </label>
+
+  <label style="height: 36px">
+   <span style="font-size: 12px;
+    font-weight: normal;
+    margin-bottom: 11px;">验证码:　</span> <input type="text" name="code" class="txt_input" style="max-width:120px; height:36px; margin-bottom:18px;"  placeholder="请输入验证码" required=""><div style="max-width: 100px;height: 36px;float: right;margin-right: 14px"><img src="/wenda/admin.php/Index/verify" onclick="this.src=this.src+'?'+Math.rand" alt="" style="max-height:36px; float: left;" ></div>
+  </label>
+  <p class="forgot"><a id="iforget" href="javascript:void(0);">忘记密码</a></p>
+  <div class="rem_sub">
+  <div class="rem_sub_l">
+  <input type="checkbox" name="checkbox" id="save_me" style="margin: 0px 0px 0px 4px;">
+   <label for="checkbox">记住密码</label>
+   </div>
+    <label>
+      <input type="submit" class="sub_button"  id="button" value="登录" style="opacity: 0.7;">
+    </label>
+  </div>
+</div>
+</form>
+<div id="forget_model" class="login_padding" style="display:none">
+<br>
+   <h1>忘记密码</h1>
+   <br>
+   <div class="forget_model_h2">请输入身份信息</div>
+    <label>
+    <input type="text" id="usrmail" class="txt_input txt_input2">
+   </label>
+  <div class="rem_sub">
+  <div class="rem_sub_l">
+   </div>
+    <label>
+     <input type="submit" class="sub_buttons" name="button" id="Retrievenow" value="检索" style="opacity: 0.7;">
+     　　　
+     <input type="submit" class="sub_button" name="button" id="denglou" value="返回" style="opacity: 0.7;">　　
+    
+    </label>
+  </div>
+</div>
+<!--login_padding  Sign up end-->
+</div><!--login_boder end-->
+</div><!--login_m end-->
+ <br> <br>
+<!-- <p align="center">校内问答</p> -->
+
+<script type="text/javascript">
+      $("#iforget").click(function () {
+        $("#login_model").hide();
+        $("#forget_model").show();
+
+    });
+       $("#denglou").click(function () {
+        $("#usrmail").val("");
+        $("#username").val("");
+        $("#userpwd").val("");
+        $("#login_model").show();
+        $("#forget_model").hide();
+
+    });
+$("#Retrievenow").click(function () {
+        //var usrmail = $("#usrmail").val();
+        // if (!Test_email(usrmail)) {
+        //    // alert(msgggg.pssjs1);
+        //     return false;
+        // }
+        alert("模拟");
+        // $.ajax({
+        //     type: "POST",
+        //     url: '/users/AjaxServer/checkis.ashx',
+        //     data: { typex: 5, usrmail: usrmail },
+        //     success: function (data) 
+        // });
+
+
+    });
+ // $("#button").click(function () {
+ //        var username = $("#username").val();
+ //        var userpwd = $("#userpwd").val();
+ //        if (username.length > 0 && userpwd.length > 0) {
+           
+ //        }else {
+          
+ //        }
+
+ //    });
+</script>
+
+</body></html>

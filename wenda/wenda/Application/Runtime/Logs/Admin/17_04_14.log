@@ -1,0 +1,520 @@
+[ 2017-04-14T21:43:20+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0030s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0000s ]
+
+[ 2017-04-14T21:44:06+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0020s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0010s ]
+
+[ 2017-04-14T21:45:47+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0040s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0000s ]
+
+[ 2017-04-14T21:47:52+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0000s ]
+
+[ 2017-04-14T21:48:38+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0020s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0000s ]
+
+[ 2017-04-14T21:49:19+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0000s ]
+
+[ 2017-04-14T21:51:52+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0010s ]
+
+[ 2017-04-14T21:52:43+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0000s ]
+
+[ 2017-04-14T21:54:15+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0000s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0010s ]
+
+[ 2017-04-14T21:54:44+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0005s ]
+
+[ 2017-04-14T21:55:15+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0005s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0005s ]
+
+[ 2017-04-14T21:55:35+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0010s ]
+
+[ 2017-04-14T21:55:51+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0020s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0000s ]
+
+[ 2017-04-14T21:56:15+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0000s ]
+
+[ 2017-04-14T21:56:30+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0000s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0010s ]
+
+[ 2017-04-14T21:57:05+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0060s ]
+
+[ 2017-04-14T21:57:42+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0030s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0000s ]
+
+[ 2017-04-14T21:57:58+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002501s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0000s ]
+
+[ 2017-04-14T21:58:55+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0010s ]
+
+[ 2017-04-14T21:59:57+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0005s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0000s ]
+
+[ 2017-04-14T22:01:28+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0000s ]
+
+[ 2017-04-14T22:05:12+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0010s ]
+
+[ 2017-04-14T22:05:38+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0000s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0000s ]
+
+[ 2017-04-14T22:12:28+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0000s ]
+
+[ 2017-04-14T22:12:37+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=18
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=18 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=18 ) [ RunTime:0.0005s ]
+
+[ 2017-04-14T22:12:53+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0000s ]
+
+[ 2017-04-14T22:17:36+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0000s ]
+
+[ 2017-04-14T22:18:03+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0000s ]
+
+[ 2017-04-14T22:20:02+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0000s ]
+
+[ 2017-04-14T22:20:16+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0010s ]
+
+[ 2017-04-14T22:20:28+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0000s ]
+
+[ 2017-04-14T22:31:10+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0000s ]
+
+[ 2017-04-14T22:31:51+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0000s ]
+
+[ 2017-04-14T22:42:24+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0010s ]
+
+[ 2017-04-14T22:45:29+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0005s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0005s ]
+
+[ 2017-04-14T22:45:48+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0000s ]
+
+[ 2017-04-14T22:46:25+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0010s ]
+
+[ 2017-04-14T22:50:21+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=18
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=18 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=18 ) [ RunTime:0.0010s ]
+
+[ 2017-04-14T22:50:25+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0000s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0000s ]
+
+[ 2017-04-14T22:58:19+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0000s ]
+
+[ 2017-04-14T23:01:00+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0020s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0010s ]
+
+[ 2017-04-14T23:01:16+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0015s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0010s ]
+
+[ 2017-04-14T23:02:44+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0010s ]
+
+[ 2017-04-14T23:03:21+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0020s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0010s ]
+
+[ 2017-04-14T23:07:01+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0000s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0010s ]
+
+[ 2017-04-14T23:11:33+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0020s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0010s ]
+
+[ 2017-04-14T23:16:25+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0010s ]
+
+[ 2017-04-14T23:17:01+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0010s ]
+
+[ 2017-04-14T23:17:22+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003500s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0005s ]
+
+[ 2017-04-14T23:17:51+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0000s ]
+
+[ 2017-04-14T23:18:45+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0010s ]
+
+[ 2017-04-14T23:18:53+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=18
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=18 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=18 ) [ RunTime:0.0010s ]
+
+[ 2017-04-14T23:19:09+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=18
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=18 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=18 ) [ RunTime:0.0000s ]
+
+[ 2017-04-14T23:19:33+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=18
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=18 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=18 ) [ RunTime:0.0010s ]
+
+[ 2017-04-14T23:21:41+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0020s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0010s ]
+
+[ 2017-04-14T23:23:08+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0020s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0020s ]
+
+[ 2017-04-14T23:23:49+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004501s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0000s ]
+
+[ 2017-04-14T23:26:38+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0010s ]
+
+[ 2017-04-14T23:27:21+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0000s ]
+
+[ 2017-04-14T23:27:37+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0000s ]
+
+[ 2017-04-14T23:28:26+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0000s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0000s ]
+
+[ 2017-04-14T23:30:51+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0000s ]
+
+[ 2017-04-14T23:30:57+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0010s ]
+
+[ 2017-04-14T23:31:32+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0020s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='0' WHERE ( aid=7 ) [ RunTime:0.0000s ]
+
+[ 2017-04-14T23:36:36+08:00 ] ::1 /wenda/admin.php/Announce/updatestate?aid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0020s ]
+SQL: SELECT `state` FROM `wenda_announce` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wenda_announce` SET `state`='1' WHERE ( aid=7 ) [ RunTime:0.0010s ]
+

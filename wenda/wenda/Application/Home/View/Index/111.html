@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>listdemo</title>
+	<style type="text/css">
+		#box{margin:0 auto;width: 400px;height: 100px}
+	</style>
+	<script type="text/javascript" src="__PUBLIC__/jquery.min.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+	$(function(){
+		$("#btn").click(function(){
+		   //var uid = $("id").html();
+		   var uid = 9;
+			$.ajax({
+				url:"__URL__/getfriendlist",
+				data:{'uid':uid}, 
+				type:"POST",
+				dataType:"json",
+				success:function(date){
+                    var msg = eval(date);
+                    var html = "";
+                    for (var i in msg) {
+                    	html+="<li style='list-style:none'>用户名:"+msg[i].username+"<span style='margin:0 18px'>邮箱："+msg[i].email+"</span></li>";
+                    
+            }
+            $("#list").append(html);
+				}
+			});
+			 return false;   
+		});
+	});
+</script>
+	<dir id="box"><button id="btn" style="width: 100px;height: auto;float: left;">查看关注列表</button><pre> </pre><div style="padding:0 32px 0 0">当前用户ID :　<span id="id">9</span></div></dir>
+	<dir style="width: 500px;height: 400px;margin:0 auto"><h3>我的好友列表：</h3><div id="flist" style="width: 500px;height: 300px;background: #EEEEEE;margin:0 auto"><ul id="list"></ul></div></dir>
+</body>
+</html>

@@ -1,0 +1,219 @@
+<include file="Public:head" />
+<block name="main-content">
+<div class="main-content">
+<div class="breadcrumbs" id="breadcrumbs">
+<script type="text/javascript">
+try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+</script>
+
+<ul class="breadcrumb">
+<li>
+<i class="icon-home home-icon"></i>
+<a href="__APP__/Index/index.html">后台主页</a>
+</li>
+
+<li>
+<a href="#">类型管理</a>
+</li>
+<li class="active">类型列表</li>
+</ul><!-- .breadcrumb -->
+
+
+</div>
+
+<div class="page-content">
+<div class="page-header">
+<h1>
+类型管理
+<small>
+<i class="icon-double-angle-right"></i>
+类型列表
+</small>
+</h1>
+</div><!-- /.page-header -->
+
+
+
+<div class="row">
+<div class="col-xs-12">
+<!-- PAGE CONTENT BEGINS -->
+<div class="row">
+<div class="col-xs-12">
+
+<div class="table-header">
+&nbsp;
+</div>
+
+<div class="table-responsive">
+<table id="sample-table-2" class="table table-striped table-bordered table-hover">
+<thead>
+<tr>
+<th style="text-align: center;">类型名</th>
+<th style="text-align: center;">添加时间</th>
+<th>操作</th>
+</tr>
+</thead>
+<tbody>
+<volist name="type" id="t">
+<tr>
+<for($i=1;$i<count($type);++$i;>
+<td class="hidden-480" id="{$i}" style="text-align: center;">{$t.typename}</td>
+<td style="text-align: center;">{$t.createtime}</td>
+<td>
+<div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
+<a class="green" id="{$t.tid}" name="{$i}" href="#">
+<i class="icon-pencil bigger-130">修改</i>
+
+</a>
+
+<a class="red" id="{$t.tid}" href="#">
+<i class="icon-trash bigger-130">删除</i>
+</a>
+</div>
+</td>
+
+
+</tr>
+
+
+</volist>
+<tr>
+
+<td colspan="5"><div class="yahoo2">{$page}</div></td>
+</tr>
+</tbody>
+
+
+</table>
+
+</div>
+<div id='mydiv' ></div>
+</div>
+
+</div>
+</div><!-- /.col -->
+</div><!-- /.row -->
+</div><!-- /.page-content -->
+</div><!-- /.main-content -->
+
+</block>
+<script type="text/javascript" src="__PUBLIC__/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+$(".red").click(function(){
+var id = $(this).attr("id");
+var commentContainer = $(this).parent().parent().parent();   
+if (confirm('你确定要删除吗？')){
+$.ajax({
+url:"__URL__/deltype",
+data:{'tid':id}, 
+type:"GET",
+dataType:"json",
+success:function(date){
+if (date==1) {
+commentContainer.slideUp('slow', function() {$(this).remove();});
+}else{
+alert("错误！");
+}
+}
+});
+return false;   
+}
+});
+$(".green").click(function(){
+var id = $(this).attr("id");
+var hang = $(this).attr("name");
+$("#mydiv>div").remove();
+$.ajax({
+url:"__URL__/getdata",
+data:{'tid':id},
+type:"POST",
+dataType:"json",
+success:function(tdata){
+var md = eval(tdata);
+var html = "";
+//for(var i in md){
+html+="<div id='mycreate' name="+hang+">";
+html+="<p style='FONT-FAMILY:微软雅黑;font-weight:block;text-indent:12px;font-size:1.5em;'>修改类型资料</p>";
+html+="<input type='hidden' name='tid' value='"+md.tid+"'>";
+html+="<label class='col-sm-1 control-label no-padding-right' style='text-indent:12px;'>类型名称:</label>　<input type='text' name='typename' class='col-xs-10 col-sm-5' value='"+md.typename+"'><br>";
+//}
+html+="<br><br><label class='col-sm-1'></label><button type='submit' onclick='doedit()' class='btn btn-primary btn-xs'>确认修改</button>"
+html+="</div>";
+$("#mydiv").append(html);
+}
+});
+return false;
+
+});
+});
+function doedit(){
+//alert(6666);
+var i = $("#mycreate").attr("name");
+var tid = $("input[name='tid']").val();
+var name = $("input[name='typename']").val();
+$.ajax({
+url:"__URL__/doingedit",
+data:{'tid':tid,'typename':name},
+type:"POST",
+dataType:"json",
+success:function(mes){
+newdata(i);
+$("#mydiv>div").remove();
+alert(mes);
+//$("#sample-table-2").location.reload(); 
+}
+});
+}
+function newdata(i){
+var x = i;
+var ntypename = $("input[name='typename']").val();
+document.getElementById(i).innerHTML = ntypename;
+}
+// function test(){
+// 	var y = $(this).parent().parent().parent().html("td:first");
+// 	alert(y);
+// }
+</script>
+<style type="text/css">
+DIV.yahoo2 {
+PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: 0.85em; PADDING-BOTTOM: 3px; MARGIN: 3px; PADDING-TOP: 3px; 
+FONT-FAMILY: Tahoma,Helvetica,sans-serif; text-indent: 22px
+}
+DIV.yahoo2 A {
+BORDER-RIGHT: #ccdbe4 1px solid; PADDING-RIGHT: 8px; BACKGROUND-POSITION: 50% bottom; BORDER-TOP: #ccdbe4 1px solid; 
+PADDING-LEFT: 8px; PADDING-BOTTOM: 2px; BORDER-LEFT: #ccdbe4 1px solid; COLOR: #0061de; MARGIN-RIGHT: 3px; PADDING-TOP: 2px; 
+BORDER-BOTTOM: #ccdbe4 1px solid; TEXT-DECORATION: none
+}
+DIV.yahoo2 A:hover {
+BORDER-RIGHT: #2b55af 1px solid; BORDER-TOP: #2b55af 1px solid; BACKGROUND-IMAGE: none; BORDER-LEFT: #2b55af 1px solid;
+COLOR: #fff; BORDER-BOTTOM: #2b55af 1px solid; BACKGROUND-COLOR: #3666d4
+}
+DIV.yahoo2 A:active {
+BORDER-RIGHT: #2b55af 1px solid; BORDER-TOP: #2b55af 1px solid; BACKGROUND-IMAGE: none; BORDER-LEFT: #2b55af 1px solid;
+COLOR: #fff; BORDER-BOTTOM: #2b55af 1px solid; BACKGROUND-COLOR: #3666d4
+}
+DIV.yahoo2 SPAN.current {
+PADDING-RIGHT: 6px; PADDING-LEFT: 6px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; COLOR: #000; MARGIN-RIGHT: 3px; PADDING-TOP: 2px
+}
+DIV.yahoo2 SPAN.disabled {
+DISPLAY: none
+}
+DIV.yahoo2 A.next {
+BORDER-RIGHT: #ccdbe4 2px solid; BORDER-TOP: #ccdbe4 2px solid; MARGIN: 0px 0px 0px 10px; BORDER-LEFT: #ccdbe4 2px solid; 
+BORDER-BOTTOM: #ccdbe4 2px solid
+}
+DIV.yahoo2 A.next:hover {
+BORDER-RIGHT: #2b55af 2px solid; BORDER-TOP: #2b55af 2px solid; BORDER-LEFT: #2b55af 2px solid; BORDER-BOTTOM: #2b55af 2px 
+solid;
+}
+DIV.yahoo2 A.prev {
+BORDER-RIGHT: #ccdbe4 2px solid; BORDER-TOP: #ccdbe4 2px solid; MARGIN: 0px 10px 0px 0px; BORDER-LEFT: #ccdbe4 2px solid; 
+BORDER-BOTTOM: #ccdbe4 2px solid
+}
+DIV.yahoo2 A.prev:hover {
+BORDER-RIGHT: #2b55af 2px solid; BORDER-TOP: #2b55af 2px solid; BORDER-LEFT: #2b55af 2px solid; BORDER-BOTTOM: #2b55af 2px 
+solid
+}
+</style>
+<include file="Public:footer" />

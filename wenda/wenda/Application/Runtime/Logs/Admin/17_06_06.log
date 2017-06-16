@@ -1,0 +1,143 @@
+[ 2017-06-06T11:35:25+08:00 ] ::1 /wenda/admin.php/Type/typelist.html
+ERR: 1146:Table 'wenda.wenda_secondtype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wenda_secondtype`
+
+[ 2017-06-06T13:46:10+08:00 ] ::1 /wenda/admin.php/Users/search
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001595s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( `username` LIKE '%2%' OR `email` LIKE '%2%' OR `tel` LIKE '%2%' )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2017-06-06T13:47:37+08:00 ] ::1 /wenda/admin.php/Users/reset?uid=20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002274s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0017s ]
+SQL: UPDATE `wenda_users` SET `pwd`='e10adc3949ba59abbe56e057f20f883e' WHERE ( uid=20 ) [ RunTime:0.0743s ]
+
+[ 2017-06-06T13:49:57+08:00 ] ::1 /wenda/admin.php/Users/delusers?uid=20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0014s ]
+SQL: SELECT `upic` FROM `wenda_users` WHERE ( uid=20 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: DELETE FROM `wenda_users` WHERE ( uid=20 ) [ RunTime:0.0656s ]
+
+[ 2017-06-06T13:50:23+08:00 ] ::1 /wenda/admin.php/Users/search
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001288s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( `username` LIKE '%22%' OR `email` LIKE '%22%' OR `tel` LIKE '%22%' )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001017s ]
+
+[ 2017-06-06T13:51:14+08:00 ] ::1 /wenda/admin.php/Type/typelist.html
+ERR: 1146:Table 'wenda.wenda_secondtype' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wenda_secondtype`
+
+[ 2017-06-06T13:55:24+08:00 ] ::1 /wenda/admin.php/Type/getdata
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001526s ]
+SQL: SHOW COLUMNS FROM `wenda_firsttype` [ RunTime:0.0014s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `wenda_firsttype` WHERE ( stid =  ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `wenda_firsttype` WHERE ( stid =  ) LIMIT 1  
+
+[ 2017-06-06T13:55:26+08:00 ] ::1 /wenda/admin.php/Type/getdata
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001905s ]
+SQL: SHOW COLUMNS FROM `wenda_firsttype` [ RunTime:0.0014s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `wenda_firsttype` WHERE ( stid =  ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `wenda_firsttype` WHERE ( stid =  ) LIMIT 1  
+
+[ 2017-06-06T13:55:27+08:00 ] ::1 /wenda/admin.php/Type/getdata
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+SQL: SHOW COLUMNS FROM `wenda_firsttype` [ RunTime:0.0013s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `wenda_firsttype` WHERE ( stid =  ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `wenda_firsttype` WHERE ( stid =  ) LIMIT 1  
+
+[ 2017-06-06T13:55:27+08:00 ] ::1 /wenda/admin.php/Type/getdata
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001297s ]
+SQL: SHOW COLUMNS FROM `wenda_firsttype` [ RunTime:0.0015s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `wenda_firsttype` WHERE ( stid =  ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `wenda_firsttype` WHERE ( stid =  ) LIMIT 1  
+
+[ 2017-06-06T13:57:00+08:00 ] ::1 /wenda/admin.php/Type/getdata
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001713s ]
+SQL: SHOW COLUMNS FROM `wenda_firsttype` [ RunTime:0.0021s ]
+ERR: 1054:Unknown column 'stid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `wenda_firsttype` WHERE ( stid = 8 ) LIMIT 1  
+ERR: 1054:Unknown column 'stid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `wenda_firsttype` WHERE ( stid = 8 ) LIMIT 1  
+
+[ 2017-06-06T13:57:01+08:00 ] ::1 /wenda/admin.php/Type/getdata
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+SQL: SHOW COLUMNS FROM `wenda_firsttype` [ RunTime:0.0019s ]
+ERR: 1054:Unknown column 'stid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `wenda_firsttype` WHERE ( stid = 7 ) LIMIT 1  
+ERR: 1054:Unknown column 'stid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `wenda_firsttype` WHERE ( stid = 7 ) LIMIT 1  
+
+[ 2017-06-06T13:57:02+08:00 ] ::1 /wenda/admin.php/Type/getdata
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002140s ]
+SQL: SHOW COLUMNS FROM `wenda_firsttype` [ RunTime:0.0019s ]
+ERR: 1054:Unknown column 'stid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `wenda_firsttype` WHERE ( stid = 6 ) LIMIT 1  
+ERR: 1054:Unknown column 'stid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `wenda_firsttype` WHERE ( stid = 6 ) LIMIT 1  
+
+[ 2017-06-06T13:57:03+08:00 ] ::1 /wenda/admin.php/Type/getdata
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001942s ]
+SQL: SHOW COLUMNS FROM `wenda_firsttype` [ RunTime:0.0005s ]
+ERR: 1054:Unknown column 'stid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `wenda_firsttype` WHERE ( stid = 5 ) LIMIT 1  
+ERR: 1054:Unknown column 'stid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `wenda_firsttype` WHERE ( stid = 5 ) LIMIT 1  
+
+[ 2017-06-06T13:57:03+08:00 ] ::1 /wenda/admin.php/Type/getdata
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001687s ]
+SQL: SHOW COLUMNS FROM `wenda_firsttype` [ RunTime:0.0019s ]
+ERR: 1054:Unknown column 'stid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `wenda_firsttype` WHERE ( stid = 6 ) LIMIT 1  
+ERR: 1054:Unknown column 'stid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `wenda_firsttype` WHERE ( stid = 6 ) LIMIT 1  
+
+[ 2017-06-06T13:57:12+08:00 ] ::1 /wenda/admin.php/Type/deltype?tid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002005s ]
+SQL: SHOW COLUMNS FROM `wenda_firsttype` [ RunTime:0.0005s ]
+ERR: 1054:Unknown column 'stid' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `wenda_firsttype` WHERE ( stid = 3 )
+ERR: 1054:Unknown column 'stid' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `wenda_firsttype` WHERE ( stid = 3 )
+

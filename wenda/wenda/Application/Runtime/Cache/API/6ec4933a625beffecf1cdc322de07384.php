@@ -1,0 +1,47 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>语音文件上传</title>
+</head>
+<style type="text/css">
+	    body{margin: 0;padding: 0;font-family: 微软雅黑;font-size: 0.8em}
+		#main{width: 600px;height: 800px;margin: 0 auto;}
+		#testform{width: 460px;height: auto;margin: 0 auto;margin-top: 22px}
+		#testform form{margin-top: 22px}
+		#testform form table{border: 1px solid #000000;width:400px;height: auto;}
+		#testform form table input{margin:0 auto;width: 300px;height: auto;position: relative;top: 25%;margin: 0 12px}
+		.testinput{height: 42px;width: 280px;float: left;}
+		.testtext{width: 70px;height: 42px;text-align: center;line-height: 42px;}
+	</style>
+<body>
+	<div id="main">
+		<div id="testform"><label for="" style="font-size: 1.2em;font-family: inherit;">语音文件上传测试</label>
+		<form action="<?php echo U('Answer/insertanswer');?>" method="POST" enctype="multipart/form-data">
+		<table>
+		 <tr>
+				<td class="testtext">问题ID</td>
+				<td class="testinput"><input type="text" name="qid"></td>
+			</tr>
+		    <tr class="testtr">
+				<td class="testtext">UID</td>
+				<td class="testinput"><input type="text" name="uid"></td>
+			</tr>
+			<tr class="testtr">
+				<td class="testtext">回答描述</td>
+				<td class="testinput"><input type="text" name="answerstexrt"></td>
+			</tr>
+			<tr class="testtr">
+				<td class="testtext">语音文件</td>
+				<td class="testinput"><input type="file" name="voicefile"></td>
+			</tr>
+			
+			<tr>
+				<td style="height:42px;width:auto;border-top: 1px solid #000000;text-align: right;padding-right: 12px" colspan="2" rowspan="1"><button type="submit" style="border-radius: 4px;background: #f0f0f0;">提交测试</button></td>
+			</tr>
+		</table>
+		</form>
+			</div>
+	</div>
+</body>
+</html>

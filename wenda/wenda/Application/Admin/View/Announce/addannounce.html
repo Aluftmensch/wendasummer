@@ -1,0 +1,98 @@
+<include file="Public:head" />
+<block name="main-content">
+
+				<div class="main-content">
+					<div class="breadcrumbs" id="breadcrumbs">
+						<script type="text/javascript">
+							try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+						</script>
+
+						<ul class="breadcrumb">
+							<li>
+								<i class="icon-home home-icon"></i>
+								<a href="#">后台主页</a>
+							</li>
+
+							<li>
+								<a href="#">公告管理</a>
+							</li>
+							<li class="active">添加公告</li>
+						</ul><!-- .breadcrumb -->
+
+					</div>
+
+					<div class="page-content">
+						<div class="page-header">
+							<h1>
+								公告管理
+								<small>
+									<i class="icon-double-angle-right"></i>
+									添加公告
+								</small>
+							</h1>
+						</div><!-- /.page-header -->
+
+						<div class="row">
+							<div class="col-xs-12">
+								<!-- PAGE CONTENT BEGINS -->
+
+							
+									<div class="form-group form-horizontal">
+										<label class="col-sm-3 control-label no-padding-right" for="form-input-readonly"> 添加公告 </label>
+
+										<div class="col-sm-9">
+											<input  type="text"  name="name" class="col-xs-10 col-sm-5" id="form-input-readonly" placeholder="请输入公告内容" required="" />	
+										</div>
+										
+									</div>
+
+									<div class="space-4">
+										
+									</div>
+
+									<div class="clearfix form-actions">
+										<div class="col-md-offset-3 col-md-9">
+											<button class="btn btn-info" type="submit" name="sub">确认添加</button>
+												
+										</div>
+									</div>
+
+									<div class="hr hr-24"></div>
+								
+								<!-- PAGE CONTENT ENDS -->
+							</div><!-- /.col -->
+						</div><!-- /.row -->
+					</div><!-- /.page-content -->
+				</div><!-- /.main-content -->
+</block>
+<script type="text/javascript" src="__PUBLIC__/jquery.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$("button[name='sub']").click(function(){
+            var name = $("input[name='name']").val();
+            //alert(name);
+            name = $.trim(name);
+            //alert(name);
+            if(name!=''){
+            $.ajax({
+            	url:"__URL__/doingadd",
+            	data:{'context':name},
+            	type:"POST",
+            	dataType:"json",
+            	success:function(msg){
+            		alert(msg);
+            		if (confirm(msg)) {
+            			window.location.href="{:U('Announce/announcelist')}";
+            		}else{
+            			alert('错误');
+            		}
+
+            	}
+            });
+            }
+			
+		});
+	});
+
+</script>
+<include file="Public:footer" />

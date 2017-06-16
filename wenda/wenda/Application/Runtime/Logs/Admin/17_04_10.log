@@ -1,0 +1,6 @@
+[ 2017-04-10T20:31:45+08:00 ] ::1 /wenda/admin.php/Admin/check.html
+ERR: 无法加载控制器:Admin
+
+[ 2017-04-10T21:08:13+08:00 ] ::1 /wenda/admin.php/Admin/logout.html
+ERR: 无法加载控制器:Admin
+

@@ -1,0 +1,1078 @@
+[ 2017-05-07T11:27:29+08:00 ] ::1 /wenda/api.php/Question/qdetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: qid D:\wamp64\www\wenda\Application\API\Controller\QuestionController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `wenda_question` [ RunTime:0.0490s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `wenda_question` WHERE ( qid =  ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `wenda_question` WHERE ( qid =  ) LIMIT 1  
+
+[ 2017-05-07T11:27:35+08:00 ] ::1 /wenda/api.php/Question/qlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wenda_question` ORDER BY qid desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenda_qadditional` [ RunTime:0.0630s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='14' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='13' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='12' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='11' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='10' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='9' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='8' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='7' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-07T11:29:37+08:00 ] ::1 /wenda/api.php/Question/qlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wenda_question` ORDER BY qid desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenda_qadditional` [ RunTime:0.0020s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='14' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='13' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='12' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='11' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='10' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='9' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='8' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='7' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-07T11:29:37+08:00 ] ::1 /wenda/api.php/Question/qlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_question` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wenda_question` ORDER BY qid desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenda_qadditional` [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='14' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='13' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='12' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='11' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='10' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='9' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='8' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='7' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-07T11:29:38+08:00 ] ::1 /wenda/api.php/Question/qlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wenda_question` ORDER BY qid desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenda_qadditional` [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='14' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='13' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='12' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='11' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='10' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='9' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='8' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='7' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-07T11:29:39+08:00 ] ::1 /wenda/api.php/Question/qlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wenda_question` ORDER BY qid desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenda_qadditional` [ RunTime:0.0020s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='14' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='13' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='12' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='11' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='10' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='9' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='8' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='7' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-07T11:30:39+08:00 ] ::1 /wenda/api.php/Question/qlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_question` ORDER BY qid desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenda_qadditional` [ RunTime:0.0020s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='14' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='13' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='12' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='11' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='10' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='9' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='8' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='7' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-07T11:30:40+08:00 ] ::1 /wenda/api.php/Question/qlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wenda_question` ORDER BY qid desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenda_qadditional` [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='14' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='13' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='12' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='11' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='10' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='9' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='8' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='7' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-07T11:30:40+08:00 ] ::1 /wenda/api.php/Question/qlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_question` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wenda_question` ORDER BY qid desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenda_qadditional` [ RunTime:0.0020s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='14' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='13' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='12' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='11' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='10' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='9' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='8' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='7' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-07T11:32:14+08:00 ] ::1 /wenda/api.php/Question/qlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wenda_question` ORDER BY qid desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenda_qadditional` [ RunTime:0.0020s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='14' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='13' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='12' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='11' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='10' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='9' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='8' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='7' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-07T11:32:31+08:00 ] ::1 /wenda/api.php/Question/qlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_question` ORDER BY qid desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenda_qadditional` [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='14' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='13' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='12' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='11' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='10' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='9' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='8' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='7' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-07T11:32:35+08:00 ] ::1 /wenda/api.php/Question/qlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_question` ORDER BY qid desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenda_qadditional` [ RunTime:0.0020s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='14' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='13' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='12' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='11' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='10' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='9' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='8' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='7' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-07T11:32:35+08:00 ] ::1 /wenda/api.php/Question/qlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_question` ORDER BY qid desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenda_qadditional` [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='14' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='13' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='12' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='11' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='10' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='9' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='8' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='7' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-07T11:32:36+08:00 ] ::1 /wenda/api.php/Question/qlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wenda_question` ORDER BY qid desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenda_qadditional` [ RunTime:0.0020s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='14' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='13' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='12' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='11' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='10' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='9' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='8' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='7' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-07T11:32:36+08:00 ] ::1 /wenda/api.php/Question/qlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wenda_question` ORDER BY qid desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenda_qadditional` [ RunTime:0.0020s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='14' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='13' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='12' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='11' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='10' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='9' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='8' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='7' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-07T11:32:36+08:00 ] ::1 /wenda/api.php/Question/qlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_question` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wenda_question` ORDER BY qid desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenda_qadditional` [ RunTime:0.0020s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='14' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='13' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='12' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='11' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='10' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='9' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='8' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='7' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-07T11:33:35+08:00 ] 127.0.0.1 /wenda/api.php/Question/qlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_question` ORDER BY qid desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenda_qadditional` [ RunTime:0.0020s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='14' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='13' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='12' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='11' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='10' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='9' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='8' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='7' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-07T11:34:32+08:00 ] 127.0.0.1 /wenda/api.php/Question/qlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wenda_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_question` ORDER BY qid desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenda_qadditional` [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='14' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='13' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='12' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='11' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='10' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='9' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='8' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='7' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-07T11:34:34+08:00 ] 127.0.0.1 /wenda/api.php/Question/qlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_question` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_question` ORDER BY qid desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenda_qadditional` [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='14' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='13' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='12' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='11' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='10' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='9' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='8' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='7' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-07T11:38:51+08:00 ] 127.0.0.1 /wenda/api.php/Question/qlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_question` ORDER BY qid desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenda_qadditional` [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='14' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='13' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='12' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='11' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='10' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='9' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='8' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='7' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-07T11:39:04+08:00 ] 127.0.0.1 /wenda/api.php/Question/qlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `wenda_question` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_question` ORDER BY qid desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenda_qadditional` [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='14' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='13' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='12' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='11' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='10' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='9' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='8' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='7' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-07T11:41:21+08:00 ] 127.0.0.1 /wenda/api.php/Question/qlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_question` ORDER BY qid desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenda_qadditional` [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='14' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='13' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='12' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='11' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='10' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='9' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='8' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='7' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-07T11:41:22+08:00 ] 127.0.0.1 /wenda/api.php/Question/qlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wenda_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_question` ORDER BY qid desc LIMIT 0,8   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wenda_qadditional` [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='14' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='13' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='12' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='11' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='10' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='9' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='8' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='7' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-07T11:44:26+08:00 ] 127.0.0.1 /wenda/api.php/Question/qlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_question` ORDER BY qid desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenda_qadditional` [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='14' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='13' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='12' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='11' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='10' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='9' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='8' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='7' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-07T13:19:24+08:00 ] 127.0.0.1 /wenda/api.php/Personal/updatauserdata?uid=15&username=121&email=232@qq.com&tel=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined variable: GET D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 33 行.
+
+[ 2017-05-07T13:20:40+08:00 ] 127.0.0.1 /wenda/api.php/Question/qlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_question` ORDER BY qid desc LIMIT 8,8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenda_qadditional` [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='6' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='5' )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='4' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='3' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='2' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-07T13:21:02+08:00 ] 127.0.0.1 /wenda/api.php/Users/login/username=小强&&pwd=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: username D:\wamp64\www\wenda\Application\API\Controller\UsersController.class.php 第 8 行.
+NOTIC: [8] Undefined index: pwd D:\wamp64\www\wenda\Application\API\Controller\UsersController.class.php 第 9 行.
+
+[ 2017-05-07T13:21:07+08:00 ] 127.0.0.1 /wenda/api.php/Users/login/username=:&&pwd=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+NOTIC: [8] Undefined index: username D:\wamp64\www\wenda\Application\API\Controller\UsersController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pwd D:\wamp64\www\wenda\Application\API\Controller\UsersController.class.php 第 12 行.
+
+[ 2017-05-07T13:21:16+08:00 ] 127.0.0.1 /wenda/api.php/Users/login?username=%E5%B0%8F%E5%BC%BA&&pwd=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE `username` = '小强' AND `pwd` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-05-07T13:23:16+08:00 ] 127.0.0.1 /wenda/api.php/Users/login?username=%E5%B0%8F%E5%BC%BA&pwd=123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE `username` = '小强' AND `pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-05-07T13:26:40+08:00 ] 127.0.0.1 /wenda/api.php/Personal/updatauserdata?uid=10&username=%E5%B0%8F%E5%BC%BA&tel=123123&email=211221
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: GET D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 33 行.
+
+[ 2017-05-07T13:27:49+08:00 ] 127.0.0.1 /wenda/api.php/Personal/updatauserdata?uid=10&username=%E5%B0%8F%E5%BC%BA&tel=123123&email=211221
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: GET D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 33 行.
+
+[ 2017-05-07T13:28:04+08:00 ] 127.0.0.1 /wenda/api.php/Personal/updatauserdata?uid=10&&username=%E5%B0%8F%E5%BC%BA&tel=123123&email=211221
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: GET D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 33 行.
+
+[ 2017-05-07T13:28:50+08:00 ] 127.0.0.1 /wenda/api.php/Personal/updatauserdata/uid/10/username/:/te/123123/email/211221
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: GET D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 33 行.
+NOTIC: [8] Undefined index: tel D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 34 行.
+
+[ 2017-05-07T13:30:29+08:00 ] 127.0.0.1 /wenda/api.php/Personal/updatauserdata
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 31 行.
+NOTIC: [8] Undefined index: username D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 32 行.
+NOTIC: [8] Undefined variable: GET D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 33 行.
+NOTIC: [8] Undefined index: tel D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 34 行.
+
+[ 2017-05-07T13:32:00+08:00 ] 127.0.0.1 /wenda/api.php/Personal/updatauserdata
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 31 行.
+NOTIC: [8] Undefined index: username D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 32 行.
+NOTIC: [8] Undefined variable: GET D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 33 行.
+NOTIC: [8] Undefined index: tel D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 34 行.
+
+[ 2017-05-07T13:33:35+08:00 ] 127.0.0.1 /wenda/api.php/Personal/updatauserdata
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 31 行.
+NOTIC: [8] Undefined index: username D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 32 行.
+NOTIC: [8] Undefined variable: GET D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 33 行.
+NOTIC: [8] Undefined index: tel D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 34 行.
+
+[ 2017-05-07T13:33:49+08:00 ] 127.0.0.1 /wenda/api.php/Personal/updatauserdata/uid/10/username/:/te/123123/email/211221
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: GET D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 33 行.
+NOTIC: [8] Undefined index: tel D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 34 行.
+
+[ 2017-05-07T13:35:27+08:00 ] 127.0.0.1 /wenda/api.php/Personal/updatauserdata
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: uid D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 31 行.
+NOTIC: [8] Undefined index: username D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 32 行.
+NOTIC: [8] Undefined variable: GET D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 33 行.
+NOTIC: [8] Undefined index: tel D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 34 行.
+
+[ 2017-05-07T13:36:04+08:00 ] 127.0.0.1 /wenda/api.php/Personal/updatauserdata?uid=10&username=121&email=232@qq.com&tel=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: GET D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 33 行.
+
+[ 2017-05-07T13:36:05+08:00 ] 127.0.0.1 /wenda/api.php/Personal/updatauserdata?uid=10&username=121&email=232@qq.com&tel=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: GET D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 33 行.
+
+[ 2017-05-07T13:36:26+08:00 ] 127.0.0.1 /wenda/api.php/Personal/updatauserdata?uid=10&&username=121&&email=232@qq.com&&tel=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: GET D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 33 行.
+
+[ 2017-05-07T13:37:07+08:00 ] 127.0.0.1 /wenda/api.php/Personal/updatauserdata?uid=10&username=121&email=232@qq.com&tel=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: GET D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 33 行.
+
+[ 2017-05-07T13:55:55+08:00 ] 127.0.0.1 /wenda/api.php/Personal/updatauserdata?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: uid D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 31 行.
+NOTIC: [8] Undefined index: username D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 32 行.
+NOTIC: [8] Undefined variable: GET D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 33 行.
+NOTIC: [8] Undefined index: tel D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 34 行.
+
+[ 2017-05-07T13:56:14+08:00 ] 127.0.0.1 /wenda/api.php/Personal/updatauserdata?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: uid D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 31 行.
+NOTIC: [8] Undefined index: username D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 32 行.
+NOTIC: [8] Undefined variable: GET D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 33 行.
+NOTIC: [8] Undefined index: tel D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 34 行.
+
+[ 2017-05-07T14:00:23+08:00 ] 127.0.0.1 /wenda/api.php/Personal/updatauserdata?username=54245&tel=54&email=45&uid=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: GET D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 33 行.
+
+[ 2017-05-07T14:01:27+08:00 ] 127.0.0.1 /wenda/api.php/Personal/updatauserdata?username=54245&tel=54&email=45&uid=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: GET D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 33 行.
+
+[ 2017-05-07T14:02:03+08:00 ] 127.0.0.1 /wenda/api.php/Personal/updatauserdata?username=54245&tel=54&email=45&uid=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: GET D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 34 行.
+
+[ 2017-05-07T14:03:28+08:00 ] 127.0.0.1 /wenda/api.php/Personal/updatauserdata?username=54245&tel=54&email=45&uid=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: GET D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 34 行.
+
+[ 2017-05-07T14:03:29+08:00 ] 127.0.0.1 /wenda/api.php/Personal/updatauserdata?username=54245&tel=54&email=45&uid=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: GET D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 34 行.
+
+[ 2017-05-07T14:04:14+08:00 ] 127.0.0.1 /wenda/api.php/Personal/updatauserdata?username=54245&tel=54&email=45&uid=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-07T14:06:23+08:00 ] 127.0.0.1 /wenda/api.php/Personal/updatauserdata?uid=10&username=121&email=232@qq.com&tel=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: upic D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 38 行.
+SQL: UPDATE `wenda_users` SET `username`='121',`email`='232@qq.com',`tel`='123' WHERE ( uid = 10 ) [ RunTime:0.0750s ]
+
+[ 2017-05-07T14:13:12+08:00 ] ::1 /wenda/api.php/Question/qlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_question` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_question` ORDER BY qid desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenda_qadditional` [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='14' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='13' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='12' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='11' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='10' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='9' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='8' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fileid`,`filename` FROM `wenda_qadditional` WHERE ( 1=1 AND qid='7' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wenda_users` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-07T14:13:13+08:00 ] ::1 /wenda/api.php/Question/qdetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: qid D:\wamp64\www\wenda\Application\API\Controller\QuestionController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `wenda_question` [ RunTime:0.0010s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `wenda_question` WHERE ( qid =  ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `wenda_question` WHERE ( qid =  ) LIMIT 1  
+
+[ 2017-05-07T23:28:59+08:00 ] 127.0.0.1 /wenda/api.php/Personal/updatauserdata?uid=10&username=%E5%B0%8F%E5%BC%BA&tel=123123&email=211221
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: upic D:\wamp64\www\wenda\Application\API\Controller\PersonalController.class.php 第 38 行.
+SQL: UPDATE `wenda_users` SET `username`='小强',`email`='211221',`tel`='123123' WHERE ( uid = 10 ) [ RunTime:0.0790s ]
+

@@ -1,0 +1,68 @@
+[ 2017-03-23T07:55:12+08:00 ] ::1 /wenda/api.php/Users/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+NOTIC: [8] Undefined index: username D:\wamp64\www\wenda\Application\API\Controller\UsersController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pwd D:\wamp64\www\wenda\Application\API\Controller\UsersController.class.php 第 12 行.
+
+[ 2017-03-23T08:36:03+08:00 ] ::1 /wenda/api.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wenda_users` WHERE `uid` = 0  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion D:\wamp64\www\wenda\Application\API\Controller\IndexController.class.php 第 8 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.034002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.034002s ]
+
+[ 2017-03-23T08:36:42+08:00 ] ::1 /wenda/api.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenda_users` WHERE `uid` = 0  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-23T09:16:36+08:00 ] 127.0.0.1 /wenda/api.php/Users/regusers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `wenda_users` [ RunTime:0.0020s ]
+SQL: INSERT INTO `wenda_users` (`username`,`pwd`,`email`,`regdate`) VALUES ('111111111','698d51a19d8a121ce581499d7b701668','1376557125@qq.com',now()) [ RunTime:0.1685s ]
+
+[ 2017-03-23T09:19:17+08:00 ] ::1 /wenda/api.php/Users/regusers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: username D:\wamp64\www\wenda\Application\API\Controller\UsersController.class.php 第 41 行.
+NOTIC: [8] Undefined index: pwd D:\wamp64\www\wenda\Application\API\Controller\UsersController.class.php 第 42 行.
+NOTIC: [8] Undefined index: email D:\wamp64\www\wenda\Application\API\Controller\UsersController.class.php 第 43 行.
+
+[ 2017-03-23T09:19:22+08:00 ] ::1 /wenda/api.php/Users/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: username D:\wamp64\www\wenda\Application\API\Controller\UsersController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pwd D:\wamp64\www\wenda\Application\API\Controller\UsersController.class.php 第 12 行.
+

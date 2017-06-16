@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?><body style='with:100%;height:100%;magin:0;padding:0'><div style='with:300px;height:200px;font-family:'宋体','微软雅黑''>欢迎使用</div></body>

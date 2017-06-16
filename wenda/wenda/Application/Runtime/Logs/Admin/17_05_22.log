@@ -1,0 +1,271 @@
+[ 2017-05-22T11:41:01+08:00 ] ::1 /wenda/admin.php/Announce/addannounce.html
+ERR: 模板不存在:./Application/Admin/View/Announce/addannounce.html
+
+[ 2017-05-22T17:41:40+08:00 ] ::1 /wenda/admin.php/announcelist/addannounce.html
+ERR: 无法加载控制器:Announcelist
+
+[ 2017-05-22T19:31:48+08:00 ] ::1 /wenda/admin.php/Announce/doingadd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: upload E:\wamp\wamp\www\wenda\Application\Admin\Controller\AnnounceController.class.php 第 106 行.
+
+[ 2017-05-22T19:31:49+08:00 ] ::1 /wenda/admin.php/Announce/doingadd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003121s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: upload E:\wamp\wamp\www\wenda\Application\Admin\Controller\AnnounceController.class.php 第 106 行.
+
+[ 2017-05-22T19:31:50+08:00 ] ::1 /wenda/admin.php/Announce/doingadd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001672s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0032s ]
+NOTIC: [8] Undefined variable: upload E:\wamp\wamp\www\wenda\Application\Admin\Controller\AnnounceController.class.php 第 106 行.
+
+[ 2017-05-22T19:31:51+08:00 ] ::1 /wenda/admin.php/Announce/doingadd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: upload E:\wamp\wamp\www\wenda\Application\Admin\Controller\AnnounceController.class.php 第 106 行.
+
+[ 2017-05-22T19:31:52+08:00 ] ::1 /wenda/admin.php/Announce/doingadd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: upload E:\wamp\wamp\www\wenda\Application\Admin\Controller\AnnounceController.class.php 第 106 行.
+
+[ 2017-05-22T19:31:52+08:00 ] ::1 /wenda/admin.php/Announce/doingadd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001353s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: upload E:\wamp\wamp\www\wenda\Application\Admin\Controller\AnnounceController.class.php 第 106 行.
+
+[ 2017-05-22T19:31:52+08:00 ] ::1 /wenda/admin.php/Announce/doingadd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001299s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: upload E:\wamp\wamp\www\wenda\Application\Admin\Controller\AnnounceController.class.php 第 106 行.
+
+[ 2017-05-22T19:31:52+08:00 ] ::1 /wenda/admin.php/Announce/doingadd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002127s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined variable: upload E:\wamp\wamp\www\wenda\Application\Admin\Controller\AnnounceController.class.php 第 106 行.
+
+[ 2017-05-22T19:31:53+08:00 ] ::1 /wenda/admin.php/Announce/doingadd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: upload E:\wamp\wamp\www\wenda\Application\Admin\Controller\AnnounceController.class.php 第 106 行.
+
+[ 2017-05-22T19:31:53+08:00 ] ::1 /wenda/admin.php/Announce/doingadd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: upload E:\wamp\wamp\www\wenda\Application\Admin\Controller\AnnounceController.class.php 第 106 行.
+
+[ 2017-05-22T19:33:03+08:00 ] ::1 /wenda/admin.php/Announce/doingadd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001487s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: upload E:\wamp\wamp\www\wenda\Application\Admin\Controller\AnnounceController.class.php 第 106 行.
+
+[ 2017-05-22T19:34:07+08:00 ] ::1 /wenda/admin.php/Announce/doingadd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001403s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: upload E:\wamp\wamp\www\wenda\Application\Admin\Controller\AnnounceController.class.php 第 106 行.
+
+[ 2017-05-22T19:34:55+08:00 ] ::1 /wenda/admin.php/Announce/doingadd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002188s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: upload E:\wamp\wamp\www\wenda\Application\Admin\Controller\AnnounceController.class.php 第 106 行.
+
+[ 2017-05-22T19:34:56+08:00 ] ::1 /wenda/admin.php/Announce/doingadd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: upload E:\wamp\wamp\www\wenda\Application\Admin\Controller\AnnounceController.class.php 第 106 行.
+
+[ 2017-05-22T19:34:56+08:00 ] ::1 /wenda/admin.php/Announce/doingadd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined variable: upload E:\wamp\wamp\www\wenda\Application\Admin\Controller\AnnounceController.class.php 第 106 行.
+
+[ 2017-05-22T19:34:56+08:00 ] ::1 /wenda/admin.php/Announce/doingadd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: upload E:\wamp\wamp\www\wenda\Application\Admin\Controller\AnnounceController.class.php 第 106 行.
+
+[ 2017-05-22T19:38:56+08:00 ] ::1 /wenda/admin.php/Announce/doingadd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001310s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0006s ]
+ERR: 1364:Field 'pic' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `wenda_announce` (`context`,`createtime`) VALUES ('2',now())
+ERR: 1364:Field 'pic' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `wenda_announce` (`context`,`createtime`) VALUES ('2',now())
+
+[ 2017-05-22T19:38:57+08:00 ] ::1 /wenda/admin.php/Announce/doingadd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001759s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0006s ]
+ERR: 1364:Field 'pic' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `wenda_announce` (`context`,`createtime`) VALUES ('2',now())
+ERR: 1364:Field 'pic' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `wenda_announce` (`context`,`createtime`) VALUES ('2',now())
+
+[ 2017-05-22T19:38:57+08:00 ] ::1 /wenda/admin.php/Announce/doingadd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001354s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0005s ]
+ERR: 1364:Field 'pic' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `wenda_announce` (`context`,`createtime`) VALUES ('2',now())
+ERR: 1364:Field 'pic' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `wenda_announce` (`context`,`createtime`) VALUES ('2',now())
+
+[ 2017-05-22T19:38:57+08:00 ] ::1 /wenda/admin.php/Announce/doingadd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002439s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0006s ]
+ERR: 1364:Field 'pic' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `wenda_announce` (`context`,`createtime`) VALUES ('2',now())
+ERR: 1364:Field 'pic' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `wenda_announce` (`context`,`createtime`) VALUES ('2',now())
+
+[ 2017-05-22T19:38:57+08:00 ] ::1 /wenda/admin.php/Announce/doingadd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0006s ]
+ERR: 1364:Field 'pic' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `wenda_announce` (`context`,`createtime`) VALUES ('2',now())
+ERR: 1364:Field 'pic' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `wenda_announce` (`context`,`createtime`) VALUES ('2',now())
+
+[ 2017-05-22T19:38:58+08:00 ] ::1 /wenda/admin.php/Announce/doingadd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002358s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0006s ]
+ERR: 1364:Field 'pic' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `wenda_announce` (`context`,`createtime`) VALUES ('2',now())
+ERR: 1364:Field 'pic' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `wenda_announce` (`context`,`createtime`) VALUES ('2',now())
+
+[ 2017-05-22T19:38:58+08:00 ] ::1 /wenda/admin.php/Announce/doingadd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0006s ]
+ERR: 1364:Field 'pic' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `wenda_announce` (`context`,`createtime`) VALUES ('2',now())
+ERR: 1364:Field 'pic' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `wenda_announce` (`context`,`createtime`) VALUES ('2',now())
+
+[ 2017-05-22T19:39:50+08:00 ] ::1 /wenda/admin.php/Announce/doingadd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0010s ]
+ERR: 1364:Field 'pic' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `wenda_announce` (`context`,`createtime`) VALUES ('2',now())
+ERR: 1364:Field 'pic' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `wenda_announce` (`context`,`createtime`) VALUES ('2',now())
+
+[ 2017-05-22T19:44:25+08:00 ] ::1 /wenda/admin.php/Announce/doingadd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0009s ]
+ERR: 1364:Field 'pic' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `wenda_announce` (`context`,`createtime`) VALUES ('22',now())
+ERR: 1364:Field 'pic' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `wenda_announce` (`context`,`createtime`) VALUES ('22',now())
+
+[ 2017-05-22T19:45:22+08:00 ] ::1 /wenda/admin.php/Announce/doingadd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0006s ]
+ERR: 1364:Field 'pic' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `wenda_announce` (`context`,`createtime`) VALUES ('额',now())
+ERR: 1364:Field 'pic' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `wenda_announce` (`context`,`createtime`) VALUES ('额',now())
+
+[ 2017-05-22T19:45:22+08:00 ] ::1 /wenda/admin.php/Announce/doingadd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001310s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0005s ]
+ERR: 1364:Field 'pic' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `wenda_announce` (`context`,`createtime`) VALUES ('额',now())
+ERR: 1364:Field 'pic' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `wenda_announce` (`context`,`createtime`) VALUES ('额',now())
+
+[ 2017-05-22T19:46:26+08:00 ] ::1 /wenda/admin.php/Announce/doingadd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001483s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0006s ]
+ERR: 1364:Field 'pic' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `wenda_announce` (`context`,`createtime`) VALUES ('3',now())
+ERR: 1364:Field 'pic' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `wenda_announce` (`context`,`createtime`) VALUES ('3',now())
+
+[ 2017-05-22T19:51:29+08:00 ] ::1 /wenda/admin.php/Announce/doingadd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001681s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant context - assumed 'context' E:\wamp\wamp\www\wenda\Application\Admin\Controller\AnnounceController.class.php 第 105 行.
+ERR: 1364:Field 'pic' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `wenda_announce` (`context`,`createtime`) VALUES ('3',now())
+ERR: 1364:Field 'pic' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `wenda_announce` (`context`,`createtime`) VALUES ('3',now())
+
+[ 2017-05-22T19:51:33+08:00 ] ::1 /wenda/admin.php/Announce/doingadd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant context - assumed 'context' E:\wamp\wamp\www\wenda\Application\Admin\Controller\AnnounceController.class.php 第 105 行.
+ERR: 1364:Field 'pic' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `wenda_announce` (`context`,`createtime`) VALUES ('柔柔弱弱若若',now())
+ERR: 1364:Field 'pic' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `wenda_announce` (`context`,`createtime`) VALUES ('柔柔弱弱若若',now())
+
+[ 2017-05-22T19:51:34+08:00 ] ::1 /wenda/admin.php/Announce/doingadd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+SQL: SHOW COLUMNS FROM `wenda_announce` [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant context - assumed 'context' E:\wamp\wamp\www\wenda\Application\Admin\Controller\AnnounceController.class.php 第 105 行.
+ERR: 1364:Field 'pic' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `wenda_announce` (`context`,`createtime`) VALUES ('柔柔弱弱若若',now())
+ERR: 1364:Field 'pic' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `wenda_announce` (`context`,`createtime`) VALUES ('柔柔弱弱若若',now())
+
